@@ -1,3 +1,5 @@
+export interface FAQ { question: string; answer: string }
+
 export interface Article {
   slug: string;
   title: string;
@@ -5,9 +7,13 @@ export interface Article {
   category: string;
   author: string;
   date: string;
+  updatedDate?: string;
   readTime: string;
   excerpt: string;
   content: string;
+  faqs?: FAQ[];
+  keyTakeaways?: string[];
+  tags?: string[];
 }
 
 export const categories = [
