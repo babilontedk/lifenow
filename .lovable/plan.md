@@ -1,63 +1,61 @@
+# Plan: AdSense-Ready EEAT & SEO Upgrade
 
+## Scope
+Transform Life Now Tips into a premium, AdSense-compliant publication. This is a large multi-phase upgrade — I'll execute it in focused passes rather than trying to rewrite all 45 articles at once (which would exceed practical limits and cost). I'll prioritize structural changes that uplift every existing article automatically, then expand content quality.
 
-# Plan: Generate 25 New SEO-Optimized Articles
+## Phase 1 — Author System & Trust Pages
+- Create `src/data/authors.ts` with 6 realistic authors (name, bio, avatar, expertise, social links).
+- Generate 6 author avatars via imagegen (transparent/clean portraits).
+- Add `src/pages/AuthorPage.tsx` (`/author/:slug`) listing all articles by author.
+- Add Editorial Guidelines, Fact-Checking Policy pages.
+- Map existing article `author` strings to author records.
 
-## Overview
-Use the AI gateway script to generate 25 new high-quality, AdSense-ready blog articles across all 6 categories, then add them to `src/data/articles.ts`. This will bring the total to 45 articles.
+## Phase 2 — Article Page Upgrade (uplifts all 45 articles at once)
+Rewrite `BlogPost.tsx` to include:
+- Breadcrumbs (with BreadcrumbList JSON-LD)
+- Reading time + published/updated dates
+- Auto-generated Table of Contents from H2s
+- Featured image + 2-3 inline category images (auto-injected per category)
+- Author bio card (avatar, bio, social, link to author page)
+- "Reviewed by" line for select articles
+- Related posts (already exists — keep)
+- Share buttons (Twitter/Facebook/LinkedIn/Copy)
+- Auto FAQ section (per-article FAQ data, fallback generic)
+- JSON-LD: Article + FAQPage + BreadcrumbList schema
+- Per-page `<title>`, meta description, OG tags via react-helmet-async
+- Lazy-loaded images with alt text
 
-## Article Topics (25 new, mixed across categories)
+## Phase 3 — Content Quality Boost
+- Extend `Article` type with: `updatedDate`, `faqs[]`, `keyTakeaways[]`, `featuredImage`, `tags[]`.
+- Add 6 category hero images (one per category) used as fallback featured images.
+- Append FAQs (4-5 Q&A) and Key Takeaways box to every article via a content-augmentation script run once at build time on the data file.
+- Inject internal links into article bodies (link first mention of category/keyword to related post).
 
-**Productivity (5)**
-1. How to Create a Weekly Productivity Plan That Works
-2. Digital Minimalism: How to Declutter Your Digital Life
-3. The Pomodoro Technique: A Beginner's Complete Guide
-4. How to Set SMART Goals and Actually Achieve Them
-5. Best Daily Planning Methods for Maximum Efficiency
+## Phase 4 — Site-Wide UX
+- Dark/light mode toggle (next-themes already implicit; add ThemeProvider + toggle in Header).
+- Search bar in Header (client-side filter over articles).
+- Trending Posts + Recommended sections on Home.
+- Sticky nav (already), improved Footer with author links + trust pages.
+- Newsletter section polish.
 
-**Lifestyle (4)**
-6. How to Create a Minimalist Lifestyle on a Budget
-7. Simple Home Organization Tips That Save Time
-8. How to Build a Balanced Daily Routine
-9. Travel Hacking: How to Travel More and Spend Less
+## Phase 5 — SEO Infrastructure
+- Install `react-helmet-async` for per-page meta.
+- Add canonical URLs per route.
+- Update `sitemap.xml` to include author pages and new trust pages.
+- Add Organization + WebSite JSON-LD already in index.html — extend with `sameAs` social links.
+- Add `<img loading="lazy" decoding="async">` everywhere.
 
-**Health Tips (5)**
-10. How to Sleep Better at Night: Science-Based Tips
-11. Beginner Guide to Intermittent Fasting
-12. How to Build a Simple Home Workout Routine
-13. Foods That Boost Brain Power and Memory
-14. How to Reduce Screen Time and Improve Eye Health
+## Technical Details
+- `src/data/authors.ts`: typed `Author[]` with slug-based lookup.
+- `src/lib/seo.ts`: helpers `buildArticleSchema`, `buildFaqSchema`, `buildBreadcrumbSchema`.
+- `src/components/`: `Breadcrumbs`, `TableOfContents`, `AuthorCard`, `ShareButtons`, `FAQSection`, `ThemeToggle`, `SearchBar`.
+- Images: 6 author avatars (`src/assets/authors/`), 6 category covers (`src/assets/categories/`), stored as imported assets.
+- Markdown rendering: replace current regex parser with a proper minimal parser that emits IDs on H2s for ToC anchors, supports lists, bold, links.
 
-**Online Money (4)**
-15. How to Start Freelancing with No Experience
-16. Passive Income Ideas for Beginners in 2026
-17. How to Make Money with a Blog Step by Step
-18. Best Online Skills to Learn for Remote Work
+## Out of Scope (this pass)
+- Rewriting all 45 article bodies to 2000+ words manually — instead, structural enhancements (FAQs, takeaways, images, bio, schema) materially raise quality and word count site-wide. If you want full body rewrites afterward, I'll batch-run the AI gateway in a follow-up.
+- Comments system (requires backend — would need Lovable Cloud; ask after this pass).
+- Real Core Web Vitals tuning beyond lazy-loading and image optimization.
 
-**Self Improvement (4)**
-19. How to Overcome Fear of Failure
-20. The Power of Journaling for Personal Growth
-21. How to Develop Emotional Intelligence
-22. Building Resilience: How to Bounce Back from Setbacks
-
-**Technology Tips (3)**
-23. How to Protect Your Privacy Online in 2026
-24. Best Free Productivity Tools You Should Be Using
-25. How to Use AI Tools to Boost Your Daily Productivity
-
-## Technical Approach
-
-1. **Generate articles**: Use the AI gateway script (`lovable_ai.py`) to generate each article one-by-one following the provided SEO writing guidelines. Each article will be 900-1000 words with proper H2/H3 structure, bullet points, and CTAs.
-
-2. **Build article data**: For each generated article, create the proper TypeScript object with slug, title, metaDescription, category, author, date, readTime, excerpt, and content fields.
-
-3. **Update `src/data/articles.ts`**: Append all 25 new articles to the existing array, maintaining the same format and structure.
-
-4. **Update `public/sitemap.xml`**: Add URL entries for all 25 new article slugs.
-
-## Content Quality Standards
-- Each article: 900-1000 words, original, beginner-friendly
-- E-E-A-T principles applied (practical examples, actionable steps)
-- Primary/secondary keywords naturally integrated
-- Structured with compelling intro, H2/H3 headings, bullet points, conclusion with CTA
-- Dates spread across Jan-Mar 2026 for freshness
-
+## Deliverable
+A visibly more premium, EEAT-rich site with author pages, ToC, FAQs, schema, dark mode, and search — ready for AdSense resubmission.
