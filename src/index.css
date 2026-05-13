@@ -51,66 +51,73 @@
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
+  .dark {
+    --background: 220 20% 8%;
+    --foreground: 40 20% 96%;
+
+    --card: 220 20% 11%;
+    --card-foreground: 40 20% 96%;
+
+    --popover: 220 20% 11%;
+    --popover-foreground: 40 20% 96%;
+
+    --primary: 160 50% 50%;
+    --primary-foreground: 220 20% 8%;
+
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 40 20% 96%;
+
+    --muted: 220 15% 16%;
+    --muted-foreground: 220 10% 65%;
+
+    --accent: 35 85% 60%;
+    --accent-foreground: 220 20% 8%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 40 20% 96%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 160 50% 50%;
+
+    --shadow-card: 0 1px 3px 0 hsl(0 0% 0% / 0.4), 0 1px 2px -1px hsl(0 0% 0% / 0.4);
+    --shadow-elevated: 0 4px 12px -2px hsl(0 0% 0% / 0.5), 0 2px 6px -2px hsl(0 0% 0% / 0.3);
+  }
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground font-body antialiased;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
-  }
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground font-body antialiased; }
+  h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+  img { @apply max-w-full h-auto; }
+  html { scroll-behavior: smooth; }
 }
 
 @layer components {
-  .container-blog {
-    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
+  .container-blog { @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8; }
+  .container-wide { @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8; }
 
-  .container-wide {
-    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-
-  .prose-blog {
-    @apply text-lg leading-relaxed;
-  }
-
+  .prose-blog { @apply text-lg leading-relaxed; }
   .prose-blog h2 {
-    @apply text-2xl font-bold mt-8 mb-4 font-heading;
+    @apply text-2xl font-bold mt-10 mb-4;
     font-family: var(--font-heading);
+    scroll-margin-top: 5rem;
   }
-
   .prose-blog h3 {
-    @apply text-xl font-bold mt-6 mb-3 font-heading;
+    @apply text-xl font-bold mt-6 mb-3;
     font-family: var(--font-heading);
   }
-
-  .prose-blog p {
-    @apply mb-4;
-  }
-
-  .prose-blog ul, .prose-blog ol {
-    @apply mb-4 pl-6;
-  }
-
-  .prose-blog li {
-    @apply mb-2;
-  }
-
-  .prose-blog ul li {
-    @apply list-disc;
-  }
-
-  .prose-blog ol li {
-    @apply list-decimal;
-  }
-
+  .prose-blog p { @apply mb-4; }
+  .prose-blog ul, .prose-blog ol { @apply mb-4 pl-6; }
+  .prose-blog li { @apply mb-2; }
+  .prose-blog ul li { @apply list-disc; }
+  .prose-blog ol li { @apply list-decimal; }
+  .prose-blog a { @apply text-primary underline hover:opacity-80; }
   .prose-blog blockquote {
     @apply border-l-4 border-primary pl-4 italic my-6 text-muted-foreground;
   }
+  .prose-blog hr { @apply my-8 border-border; }
+  .prose-blog figure { @apply my-6; }
+  .prose-blog figcaption { @apply text-sm text-muted-foreground text-center mt-2; }
 }

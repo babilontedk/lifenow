@@ -1,51 +1,66 @@
 import { Link } from "react-router-dom";
 
-const footerLinks = [
-  { to: "/", label: "Home" },
-  { to: "/blog", label: "Blog" },
-  { to: "/about", label: "About" },
-  { to: "/contact", label: "Contact" },
-  { to: "/privacy-policy", label: "Privacy Policy" },
-  { to: "/terms", label: "Terms" },
-  { to: "/disclaimer", label: "Disclaimer" },
-  { to: "/cookie-policy", label: "Cookie Policy" },
-  { to: "/sitemap", label: "Sitemap" },
+const sections = [
+  {
+    heading: "Explore",
+    links: [
+      { to: "/", label: "Home" },
+      { to: "/blog", label: "Blog" },
+      { to: "/authors", label: "Authors" },
+      { to: "/sitemap", label: "Sitemap" },
+    ],
+  },
+  {
+    heading: "Company",
+    links: [
+      { to: "/about", label: "About Us" },
+      { to: "/contact", label: "Contact" },
+      { to: "/editorial-guidelines", label: "Editorial Guidelines" },
+      { to: "/fact-checking", label: "Fact-Checking Policy" },
+    ],
+  },
+  {
+    heading: "Legal",
+    links: [
+      { to: "/privacy-policy", label: "Privacy Policy" },
+      { to: "/terms", label: "Terms" },
+      { to: "/disclaimer", label: "Disclaimer" },
+      { to: "/cookie-policy", label: "Cookie Policy" },
+    ],
+  },
 ];
 
-const Footer = () => {
-  return (
-    <footer className="border-t border-border bg-card mt-16">
-      <div className="container-wide py-10">
-        <div className="flex flex-col md:flex-row justify-between gap-8">
-          <div className="max-w-sm">
-            <h3 className="text-lg font-bold font-heading text-primary mb-2">Life Now Tips</h3>
-            <p className="text-sm text-muted-foreground font-body">
-              Your trusted source for practical life advice, productivity strategies, and self-improvement tips.
-            </p>
-          </div>
-          <div>
-            <h4 className="text-sm font-semibold font-body text-foreground mb-3">Quick Links</h4>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-8 gap-y-2">
-              {footerLinks.map(link => (
-                <Link
-                  key={link.to}
-                  to={link.to}
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors font-body"
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
-        <div className="border-t border-border mt-8 pt-6 text-center">
-          <p className="text-sm text-muted-foreground font-body">
-            © 2026 Life Now Tips. All Rights Reserved.
+const Footer = () => (
+  <footer className="border-t border-border bg-card mt-16">
+    <div className="container-wide py-12">
+      <div className="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 className="text-lg font-bold font-heading text-primary mb-2">Life Now Tips</h3>
+          <p className="text-sm text-muted-foreground font-body leading-relaxed">
+            Practical, expert-reviewed guides on productivity, health, lifestyle, and online income — written by real people for real readers.
           </p>
         </div>
+        {sections.map((s) => (
+          <div key={s.heading}>
+            <h4 className="text-sm font-semibold font-body text-foreground mb-3">{s.heading}</h4>
+            <ul className="space-y-2">
+              {s.links.map((l) => (
+                <li key={l.to}>
+                  <Link to={l.to} className="text-sm text-muted-foreground hover:text-primary transition-colors font-body">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
-    </footer>
-  );
-};
+      <div className="border-t border-border mt-10 pt-6 flex flex-col md:flex-row justify-between gap-3 text-sm text-muted-foreground font-body">
+        <p>© {new Date().getFullYear()} Life Now Tips. All rights reserved.</p>
+        <p>Content for informational purposes only. See our <Link to="/disclaimer" className="underline hover:text-primary">disclaimer</Link>.</p>
+      </div>
+    </div>
+  </footer>
+);
 
 export default Footer;
