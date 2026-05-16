@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">How to Stop Procrastination</title>
+  <desc id="desc">Unique editorial cover illustration for How to Stop Procrastination on Life Now Tips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2B3A67"/>
+      <stop offset="58%" stop-color="#2B3A67"/>
+      <stop offset="100%" stop-color="#E4B363"/>
+    </linearGradient>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 71H72M71 0V72" stroke="#F6F1E7" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="18" cy="18" r="1.7" fill="#F6F1E7" fill-opacity="0.11"/>
+      <circle cx="50" cy="44" r="1.2" fill="#E4B363" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grain)"/>
+  <g opacity="0.95">
+    <circle cx="766" cy="321" r="188" fill="none" stroke="#F6F1E7" stroke-width="2" opacity="0.14"/><circle cx="710" cy="210" r="199" fill="none" stroke="#E4B363" stroke-width="2" opacity="0.11"/><circle cx="193" cy="473" r="56" fill="none" stroke="#F6F1E7" stroke-width="2" opacity="0.16"/><circle cx="129" cy="456" r="52" fill="none" stroke="#E4B363" stroke-width="2" opacity="0.12"/><circle cx="121" cy="590" r="195" fill="none" stroke="#F6F1E7" stroke-width="2" opacity="0.10"/><circle cx="630" cy="598" r="152" fill="none" stroke="#E4B363" stroke-width="2" opacity="0.09"/><circle cx="693" cy="295" r="55" fill="none" stroke="#F6F1E7" stroke-width="2" opacity="0.15"/>
+  </g>
+  <g><rect x="971" y="256" width="150" height="98" rx="18" transform="rotate(14 1046 305)" fill="#E4B363" opacity="0.18"/><rect x="1040" y="237" width="150" height="98" rx="18" transform="rotate(16 1115 286)" fill="#E4B363" opacity="0.20"/><rect x="913" y="334" width="150" height="98" rx="18" transform="rotate(14 988 383)" fill="#E4B363" opacity="0.22"/><rect x="866" y="240" width="150" height="98" rx="18" transform="rotate(-14 941 289)" fill="#E4B363" opacity="0.24"/></g>
+  <g><rect x="770" y="483" width="18" height="157" rx="9" fill="#F6F1E7" opacity="0.14"/><rect x="811" y="497" width="18" height="143" rx="9" fill="#E4B363" opacity="0.26"/><rect x="863" y="504" width="18" height="136" rx="9" fill="#E4B363" opacity="0.26"/><rect x="912" y="342" width="18" height="298" rx="9" fill="#F6F1E7" opacity="0.14"/><rect x="951" y="261" width="18" height="379" rx="9" fill="#E4B363" opacity="0.26"/><rect x="993" y="386" width="18" height="254" rx="9" fill="#E4B363" opacity="0.26"/><rect x="1037" y="448" width="18" height="192" rx="9" fill="#F6F1E7" opacity="0.14"/><rect x="1082" y="479" width="18" height="161" rx="9" fill="#E4B363" opacity="0.26"/></g>
+  <path d="M760 102 C884 44 1039 73 1158 164 C1074 147 985 174 897 238 C845 276 797 326 742 353 C735 260 728 166 760 102Z" fill="#F6F1E7" opacity="0.10"/>
+  <rect x="72" y="86" width="612" height="548" rx="34" fill="#F6F1E7" opacity="0.08" filter="url(#shadow)"/>
+  <rect x="86" y="108" width="92" height="6" rx="3" fill="#E4B363"/>
+  <text x="86" y="177" fill="#E4B363" font-family="Source Sans 3, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="3">PRODUCTIVITY</text>
+  <text fill="#F6F1E7" font-family="Merriweather, Georgia, serif" font-size="50" font-weight="800" letter-spacing="0" line-height="1.15">
+    <tspan x="86" y="305">How to Stop</tspan>
+<tspan x="86" y="369">Procrastination</tspan>
+  </text>
+  <text x="86" y="586" fill="#F6F1E7" opacity="0.78" font-family="Source Sans 3, Arial, sans-serif" font-size="26" font-weight="600">Life Now Tips • Practical guide</text>
+  <circle cx="1130" cy="136" r="54" fill="#F6F1E7" opacity="0.11"/>
+  <circle cx="1130" cy="136" r="22" fill="#E4B363" opacity="0.72"/>
+  <path d="M1066 574L1156 484L1246 574" fill="none" stroke="#F6F1E7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+  <path d="M1012 612H1226" stroke="#E4B363" stroke-width="10" stroke-linecap="round" opacity="0.52"/>
+</svg>

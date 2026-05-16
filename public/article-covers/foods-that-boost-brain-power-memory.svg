@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Foods That Boost Brain Power and Memory</title>
+  <desc id="desc">Unique editorial cover illustration for Foods That Boost Brain Power and Memory on Life Now Tips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F5C63"/>
+      <stop offset="58%" stop-color="#1F5C63"/>
+      <stop offset="100%" stop-color="#A7C957"/>
+    </linearGradient>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 71H72M71 0V72" stroke="#F4F7F1" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="18" cy="18" r="1.7" fill="#F4F7F1" fill-opacity="0.11"/>
+      <circle cx="50" cy="44" r="1.2" fill="#A7C957" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grain)"/>
+  <g opacity="0.95">
+    <circle cx="469" cy="324" r="61" fill="none" stroke="#F4F7F1" stroke-width="2" opacity="0.21"/><circle cx="163" cy="446" r="147" fill="none" stroke="#A7C957" stroke-width="2" opacity="0.21"/><circle cx="252" cy="623" r="124" fill="none" stroke="#F4F7F1" stroke-width="2" opacity="0.21"/><circle cx="264" cy="330" r="176" fill="none" stroke="#A7C957" stroke-width="2" opacity="0.14"/><circle cx="775" cy="447" r="215" fill="none" stroke="#F4F7F1" stroke-width="2" opacity="0.18"/><circle cx="584" cy="218" r="173" fill="none" stroke="#A7C957" stroke-width="2" opacity="0.20"/><circle cx="433" cy="338" r="55" fill="none" stroke="#F4F7F1" stroke-width="2" opacity="0.14"/>
+  </g>
+  <g><rect x="1004" y="319" width="150" height="98" rx="18" transform="rotate(12 1079 368)" fill="#86A873" opacity="0.18"/><rect x="976" y="255" width="150" height="98" rx="18" transform="rotate(0 1051 304)" fill="#86A873" opacity="0.20"/><rect x="883" y="392" width="150" height="98" rx="18" transform="rotate(3 958 441)" fill="#86A873" opacity="0.22"/><rect x="890" y="274" width="150" height="98" rx="18" transform="rotate(-14 965 323)" fill="#86A873" opacity="0.24"/></g>
+  <g><rect x="773" y="425" width="18" height="215" rx="9" fill="#F4F7F1" opacity="0.14"/><rect x="812" y="468" width="18" height="172" rx="9" fill="#A7C957" opacity="0.26"/><rect x="855" y="324" width="18" height="316" rx="9" fill="#A7C957" opacity="0.26"/><rect x="899" y="252" width="18" height="388" rx="9" fill="#F4F7F1" opacity="0.14"/><rect x="953" y="216" width="18" height="424" rx="9" fill="#A7C957" opacity="0.26"/><rect x="1003" y="198" width="18" height="442" rx="9" fill="#A7C957" opacity="0.26"/><rect x="1042" y="189" width="18" height="451" rx="9" fill="#F4F7F1" opacity="0.14"/><rect x="1094" y="185" width="18" height="455" rx="9" fill="#A7C957" opacity="0.26"/></g>
+  <path d="M760 102 C884 44 1039 73 1158 164 C1074 147 985 174 897 238 C845 276 797 326 742 353 C735 260 728 166 760 102Z" fill="#F4F7F1" opacity="0.10"/>
+  <rect x="72" y="86" width="612" height="548" rx="34" fill="#F4F7F1" opacity="0.08" filter="url(#shadow)"/>
+  <rect x="86" y="108" width="92" height="6" rx="3" fill="#A7C957"/>
+  <text x="86" y="177" fill="#A7C957" font-family="Source Sans 3, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="3">HEALTH TIPS</text>
+  <text fill="#F4F7F1" font-family="Merriweather, Georgia, serif" font-size="50" font-weight="800" letter-spacing="0" line-height="1.15">
+    <tspan x="86" y="305">Foods That Boost Brain</tspan>
+<tspan x="86" y="369">Power and Memory</tspan>
+  </text>
+  <text x="86" y="586" fill="#F4F7F1" opacity="0.78" font-family="Source Sans 3, Arial, sans-serif" font-size="26" font-weight="600">Life Now Tips • Practical guide</text>
+  <circle cx="1130" cy="136" r="54" fill="#F4F7F1" opacity="0.11"/>
+  <circle cx="1130" cy="136" r="22" fill="#A7C957" opacity="0.72"/>
+  <path d="M1066 574L1156 484L1246 574" fill="none" stroke="#F4F7F1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+  <path d="M1012 612H1226" stroke="#A7C957" stroke-width="10" stroke-linecap="round" opacity="0.52"/>
+</svg>

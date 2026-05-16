@@ -16,3 +16,6 @@ export const categoryImages: Record<string, string> = {
 
 export const getCategoryImage = (category: string): string =>
   categoryImages[category] || productivity;
+
+export const getArticleCoverImage = (slug: string): string =>
+  `/article-covers/${slug}.svg`;
