@@ -4,7 +4,7 @@ import ArticleCard from "@/components/ArticleCard";
 import NewsletterSignup from "@/components/NewsletterSignup";
 import SEO from "@/components/SEO";
 import { articles, categories } from "@/data/articles";
-import { getCategoryImage } from "@/data/categoryImages";
+import { getArticleCoverImage, getCategoryImage } from "@/data/categoryImages";
 
 const Index = () => {
   const sorted = [...articles].sort((a, b) => +new Date(b.date) - +new Date(a.date));
@@ -43,7 +43,7 @@ const Index = () => {
           </div>
           {heroFeatured && (
             <Link to={`/blog/${heroFeatured.slug}`} className="group block bg-card border border-border rounded-lg overflow-hidden shadow-elevated">
-              <img src={getCategoryImage(heroFeatured.category)} alt={heroFeatured.title}
+              <img src={getArticleCoverImage(heroFeatured.slug)} alt={heroFeatured.title}
                 width={1280} height={720} loading="eager"
                 className="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-500" />
               <div className="p-5">

@@ -2,7 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import Layout from "@/components/Layout";
 import { getArticleBySlug, getRelatedArticles } from "@/data/articles";
 import { getAuthorForArticle, getReviewerForArticle } from "@/data/authors";
-import { getCategoryImage } from "@/data/categoryImages";
+import { getArticleCoverImage } from "@/data/categoryImages";
 import ArticleCard from "@/components/ArticleCard";
 import SEO from "@/components/SEO";
 import Breadcrumbs from "@/components/Breadcrumbs";
@@ -31,7 +31,7 @@ const BlogPost = () => {
 
   const author = getAuthorForArticle(article);
   const reviewer = getReviewerForArticle(article);
-  const featuredImage = getCategoryImage(article.category);
+  const featuredImage = getArticleCoverImage(article.slug);
   const related = getRelatedArticles(article.slug);
   const faqs = (article as any).faqs?.length ? (article as any).faqs : generateFAQs(article);
   const takeaways = (article as any).keyTakeaways?.length ? (article as any).keyTakeaways : generateKeyTakeaways(article);

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import type { Article } from "@/data/articles";
-import { getCategoryImage } from "@/data/categoryImages";
+import { getArticleCoverImage } from "@/data/categoryImages";
 import { getAuthorForArticle } from "@/data/authors";
 
 interface ArticleCardProps {
@@ -9,7 +9,7 @@ interface ArticleCardProps {
 }
 
 const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
-  const image = getCategoryImage(article.category);
+  const image = getArticleCoverImage(article.slug);
   const author = getAuthorForArticle(article);
   return (
     <article className={`group bg-card rounded-lg border border-border shadow-card hover:shadow-elevated transition-shadow overflow-hidden ${featured ? "md:col-span-2" : ""}`}>
