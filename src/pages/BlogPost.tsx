@@ -32,16 +32,12 @@ const BlogPost = () => {
   const author = getAuthorForArticle(article);
   const reviewer = getReviewerForArticle(article);
   const featuredImage = getCategoryImage(article.category);
-  const inlineImage = featuredImage; // reuse category image inline mid-article
   const related = getRelatedArticles(article.slug);
   const faqs = (article as any).faqs?.length ? (article as any).faqs : generateFAQs(article);
   const takeaways = (article as any).keyTakeaways?.length ? (article as any).keyTakeaways : generateKeyTakeaways(article);
   const updatedDate = (article as any).updatedDate || article.date;
 
-  const { html, headings } = renderArticleContent(article.content, {
-    inlineImage: { src: inlineImage, alt: `Illustration for ${article.title}`, caption: `${article.category} – Life Now Tips` },
-    afterHeadingIndex: 2,
-  });
+  const { html, headings } = renderArticleContent(article.content);
   const readTime = article.readTime || getReadingTime(article.content);
 
   const path = `/blog/${article.slug}`;
