@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">How to Protect Your Privacy Online in 2026</title>
+  <desc id="desc">Unique editorial cover illustration for How to Protect Your Privacy Online in 2026 on Life Now Tips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#224B5A"/>
+      <stop offset="58%" stop-color="#224B5A"/>
+      <stop offset="100%" stop-color="#A7C5BD"/>
+    </linearGradient>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 71H72M71 0V72" stroke="#F6F2EA" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="18" cy="18" r="1.7" fill="#F6F2EA" fill-opacity="0.11"/>
+      <circle cx="50" cy="44" r="1.2" fill="#A7C5BD" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grain)"/>
+  <g opacity="0.95">
+    <circle cx="590" cy="145" r="182" fill="none" stroke="#F6F2EA" stroke-width="2" opacity="0.18"/><circle cx="178" cy="334" r="151" fill="none" stroke="#A7C5BD" stroke-width="2" opacity="0.13"/><circle cx="1019" cy="244" r="214" fill="none" stroke="#F6F2EA" stroke-width="2" opacity="0.17"/><circle cx="1124" cy="138" r="189" fill="none" stroke="#A7C5BD" stroke-width="2" opacity="0.19"/><circle cx="883" cy="603" r="56" fill="none" stroke="#F6F2EA" stroke-width="2" opacity="0.13"/><circle cx="597" cy="599" r="169" fill="none" stroke="#A7C5BD" stroke-width="2" opacity="0.10"/><circle cx="817" cy="329" r="55" fill="none" stroke="#F6F2EA" stroke-width="2" opacity="0.16"/>
+  </g>
+  <g><rect x="915" y="400" width="150" height="98" rx="18" transform="rotate(-7 990 449)" fill="#A7C5BD" opacity="0.18"/><rect x="984" y="209" width="150" height="98" rx="18" transform="rotate(2 1059 258)" fill="#A7C5BD" opacity="0.20"/><rect x="1014" y="382" width="150" height="98" rx="18" transform="rotate(16 1089 431)" fill="#A7C5BD" opacity="0.22"/><rect x="938" y="387" width="150" height="98" rx="18" transform="rotate(15 1013 436)" fill="#A7C5BD" opacity="0.24"/></g>
+  <g><rect x="774" y="331" width="18" height="309" rx="9" fill="#F6F2EA" opacity="0.14"/><rect x="813" y="421" width="18" height="219" rx="9" fill="#A7C5BD" opacity="0.26"/><rect x="855" y="301" width="18" height="339" rx="9" fill="#A7C5BD" opacity="0.26"/><rect x="908" y="241" width="18" height="399" rx="9" fill="#F6F2EA" opacity="0.14"/><rect x="949" y="376" width="18" height="264" rx="9" fill="#A7C5BD" opacity="0.26"/><rect x="1001" y="278" width="18" height="362" rx="9" fill="#A7C5BD" opacity="0.26"/><rect x="1041" y="394" width="18" height="246" rx="9" fill="#F6F2EA" opacity="0.14"/><rect x="1093" y="287" width="18" height="353" rx="9" fill="#A7C5BD" opacity="0.26"/></g>
+  <path d="M760 102 C884 44 1039 73 1158 164 C1074 147 985 174 897 238 C845 276 797 326 742 353 C735 260 728 166 760 102Z" fill="#F6F2EA" opacity="0.10"/>
+  <rect x="72" y="86" width="612" height="548" rx="34" fill="#F6F2EA" opacity="0.08" filter="url(#shadow)"/>
+  <rect x="86" y="108" width="92" height="6" rx="3" fill="#A7C5BD"/>
+  <text x="86" y="177" fill="#A7C5BD" font-family="Source Sans 3, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="3">TECHNOLOGY TIPS</text>
+  <text fill="#F6F2EA" font-family="Merriweather, Georgia, serif" font-size="50" font-weight="800" letter-spacing="0" line-height="1.15">
+    <tspan x="86" y="305">How to Protect Your</tspan>
+<tspan x="86" y="369">Privacy Online in 2026</tspan>
+  </text>
+  <text x="86" y="586" fill="#F6F2EA" opacity="0.78" font-family="Source Sans 3, Arial, sans-serif" font-size="26" font-weight="600">Life Now Tips • Practical guide</text>
+  <circle cx="1130" cy="136" r="54" fill="#F6F2EA" opacity="0.11"/>
+  <circle cx="1130" cy="136" r="22" fill="#A7C5BD" opacity="0.72"/>
+  <path d="M1066 574L1156 484L1246 574" fill="none" stroke="#F6F2EA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+  <path d="M1012 612H1226" stroke="#A7C5BD" stroke-width="10" stroke-linecap="round" opacity="0.52"/>
+</svg>

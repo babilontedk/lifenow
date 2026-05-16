@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">The Power of Journaling for Personal Growth</title>
+  <desc id="desc">Unique editorial cover illustration for The Power of Journaling for Personal Growth on Life Now Tips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A3F7A"/>
+      <stop offset="58%" stop-color="#4A3F7A"/>
+      <stop offset="100%" stop-color="#DFA06E"/>
+    </linearGradient>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 71H72M71 0V72" stroke="#F7EFE8" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="18" cy="18" r="1.7" fill="#F7EFE8" fill-opacity="0.11"/>
+      <circle cx="50" cy="44" r="1.2" fill="#DFA06E" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grain)"/>
+  <g opacity="0.95">
+    <circle cx="861" cy="596" r="113" fill="none" stroke="#F7EFE8" stroke-width="2" opacity="0.14"/><circle cx="340" cy="565" r="107" fill="none" stroke="#DFA06E" stroke-width="2" opacity="0.18"/><circle cx="147" cy="326" r="74" fill="none" stroke="#F7EFE8" stroke-width="2" opacity="0.13"/><circle cx="505" cy="413" r="79" fill="none" stroke="#DFA06E" stroke-width="2" opacity="0.10"/><circle cx="678" cy="553" r="206" fill="none" stroke="#F7EFE8" stroke-width="2" opacity="0.09"/><circle cx="317" cy="359" r="94" fill="none" stroke="#DFA06E" stroke-width="2" opacity="0.08"/><circle cx="399" cy="179" r="53" fill="none" stroke="#F7EFE8" stroke-width="2" opacity="0.15"/>
+  </g>
+  <g><rect x="886" y="311" width="150" height="98" rx="18" transform="rotate(-1 961 360)" fill="#C9A84C" opacity="0.18"/><rect x="1035" y="345" width="150" height="98" rx="18" transform="rotate(15 1110 394)" fill="#C9A84C" opacity="0.20"/><rect x="886" y="402" width="150" height="98" rx="18" transform="rotate(-14 961 451)" fill="#C9A84C" opacity="0.22"/><rect x="943" y="307" width="150" height="98" rx="18" transform="rotate(7 1018 356)" fill="#C9A84C" opacity="0.24"/></g>
+  <g><rect x="775" y="185" width="18" height="455" rx="9" fill="#F7EFE8" opacity="0.14"/><rect x="822" y="183" width="18" height="457" rx="9" fill="#DFA06E" opacity="0.26"/><rect x="860" y="347" width="18" height="293" rx="9" fill="#DFA06E" opacity="0.26"/><rect x="902" y="429" width="18" height="211" rx="9" fill="#F7EFE8" opacity="0.14"/><rect x="946" y="305" width="18" height="335" rx="9" fill="#DFA06E" opacity="0.26"/><rect x="991" y="408" width="18" height="232" rx="9" fill="#DFA06E" opacity="0.26"/><rect x="1045" y="294" width="18" height="346" rx="9" fill="#F7EFE8" opacity="0.14"/><rect x="1095" y="402" width="18" height="238" rx="9" fill="#DFA06E" opacity="0.26"/></g>
+  <path d="M760 102 C884 44 1039 73 1158 164 C1074 147 985 174 897 238 C845 276 797 326 742 353 C735 260 728 166 760 102Z" fill="#F7EFE8" opacity="0.10"/>
+  <rect x="72" y="86" width="612" height="548" rx="34" fill="#F7EFE8" opacity="0.08" filter="url(#shadow)"/>
+  <rect x="86" y="108" width="92" height="6" rx="3" fill="#DFA06E"/>
+  <text x="86" y="177" fill="#DFA06E" font-family="Source Sans 3, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="3">SELF IMPROVEMENT</text>
+  <text fill="#F7EFE8" font-family="Merriweather, Georgia, serif" font-size="50" font-weight="800" letter-spacing="0" line-height="1.15">
+    <tspan x="86" y="305">The Power of Journaling</tspan>
+<tspan x="86" y="369">for Personal Growth</tspan>
+  </text>
+  <text x="86" y="586" fill="#F7EFE8" opacity="0.78" font-family="Source Sans 3, Arial, sans-serif" font-size="26" font-weight="600">Life Now Tips • Practical guide</text>
+  <circle cx="1130" cy="136" r="54" fill="#F7EFE8" opacity="0.11"/>
+  <circle cx="1130" cy="136" r="22" fill="#DFA06E" opacity="0.72"/>
+  <path d="M1066 574L1156 484L1246 574" fill="none" stroke="#F7EFE8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+  <path d="M1012 612H1226" stroke="#DFA06E" stroke-width="10" stroke-linecap="round" opacity="0.52"/>
+</svg>

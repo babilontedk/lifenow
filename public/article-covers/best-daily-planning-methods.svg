@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Best Daily Planning Methods for Maximum Efficiency</title>
+  <desc id="desc">Unique editorial cover illustration for Best Daily Planning Methods for Maximum Efficiency on Life Now Tips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#244236"/>
+      <stop offset="58%" stop-color="#244236"/>
+      <stop offset="100%" stop-color="#D7A84F"/>
+    </linearGradient>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 71H72M71 0V72" stroke="#F4EFE6" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="18" cy="18" r="1.7" fill="#F4EFE6" fill-opacity="0.11"/>
+      <circle cx="50" cy="44" r="1.2" fill="#D7A84F" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grain)"/>
+  <g opacity="0.95">
+    <circle cx="1080" cy="455" r="162" fill="none" stroke="#F4EFE6" stroke-width="2" opacity="0.11"/><circle cx="1132" cy="151" r="220" fill="none" stroke="#D7A84F" stroke-width="2" opacity="0.09"/><circle cx="884" cy="301" r="163" fill="none" stroke="#F4EFE6" stroke-width="2" opacity="0.15"/><circle cx="343" cy="242" r="140" fill="none" stroke="#D7A84F" stroke-width="2" opacity="0.18"/><circle cx="147" cy="239" r="139" fill="none" stroke="#F4EFE6" stroke-width="2" opacity="0.20"/><circle cx="888" cy="542" r="150" fill="none" stroke="#D7A84F" stroke-width="2" opacity="0.14"/><circle cx="471" cy="291" r="55" fill="none" stroke="#F4EFE6" stroke-width="2" opacity="0.18"/>
+  </g>
+  <g><rect x="1015" y="270" width="150" height="98" rx="18" transform="rotate(-12 1090 319)" fill="#E4B363" opacity="0.18"/><rect x="951" y="238" width="150" height="98" rx="18" transform="rotate(12 1026 287)" fill="#E4B363" opacity="0.20"/><rect x="921" y="261" width="150" height="98" rx="18" transform="rotate(5 996 310)" fill="#E4B363" opacity="0.22"/><rect x="892" y="278" width="150" height="98" rx="18" transform="rotate(9 967 327)" fill="#E4B363" opacity="0.24"/></g>
+  <g><rect x="760" y="332" width="18" height="308" rx="9" fill="#F4EFE6" opacity="0.14"/><rect x="806" y="256" width="18" height="384" rx="9" fill="#D7A84F" opacity="0.26"/><rect x="861" y="218" width="18" height="422" rx="9" fill="#D7A84F" opacity="0.26"/><rect x="902" y="364" width="18" height="276" rx="9" fill="#F4EFE6" opacity="0.14"/><rect x="946" y="437" width="18" height="203" rx="9" fill="#D7A84F" opacity="0.26"/><rect x="1000" y="309" width="18" height="331" rx="9" fill="#D7A84F" opacity="0.26"/><rect x="1050" y="245" width="18" height="395" rx="9" fill="#F4EFE6" opacity="0.14"/><rect x="1098" y="213" width="18" height="427" rx="9" fill="#D7A84F" opacity="0.26"/></g>
+  <path d="M760 102 C884 44 1039 73 1158 164 C1074 147 985 174 897 238 C845 276 797 326 742 353 C735 260 728 166 760 102Z" fill="#F4EFE6" opacity="0.10"/>
+  <rect x="72" y="86" width="612" height="548" rx="34" fill="#F4EFE6" opacity="0.08" filter="url(#shadow)"/>
+  <rect x="86" y="108" width="92" height="6" rx="3" fill="#D7A84F"/>
+  <text x="86" y="177" fill="#D7A84F" font-family="Source Sans 3, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="3">PRODUCTIVITY</text>
+  <text fill="#F4EFE6" font-family="Merriweather, Georgia, serif" font-size="50" font-weight="800" letter-spacing="0" line-height="1.15">
+    <tspan x="86" y="305">Best Daily Planning</tspan>
+<tspan x="86" y="369">Methods for Maximum</tspan>
+<tspan x="86" y="433">Efficiency</tspan>
+  </text>
+  <text x="86" y="586" fill="#F4EFE6" opacity="0.78" font-family="Source Sans 3, Arial, sans-serif" font-size="26" font-weight="600">Life Now Tips • Practical guide</text>
+  <circle cx="1130" cy="136" r="54" fill="#F4EFE6" opacity="0.11"/>
+  <circle cx="1130" cy="136" r="22" fill="#D7A84F" opacity="0.72"/>
+  <path d="M1066 574L1156 484L1246 574" fill="none" stroke="#F4EFE6" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+  <path d="M1012 612H1226" stroke="#D7A84F" stroke-width="10" stroke-linecap="round" opacity="0.52"/>
+</svg>

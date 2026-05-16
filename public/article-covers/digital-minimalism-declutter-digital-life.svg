@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Digital Minimalism: How to Declutter Your Digital Life</title>
+  <desc id="desc">Unique editorial cover illustration for Digital Minimalism: How to Declutter Your Digital Life on Life Now Tips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E4D5C"/>
+      <stop offset="58%" stop-color="#1E4D5C"/>
+      <stop offset="100%" stop-color="#E9C46A"/>
+    </linearGradient>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M0 71H72M71 0V72" stroke="#F5F0E8" stroke-opacity="0.055" stroke-width="1"/>
+      <circle cx="18" cy="18" r="1.7" fill="#F5F0E8" fill-opacity="0.11"/>
+      <circle cx="50" cy="44" r="1.2" fill="#E9C46A" fill-opacity="0.18"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#grain)"/>
+  <g opacity="0.95">
+    <circle cx="1004" cy="379" r="86" fill="none" stroke="#F5F0E8" stroke-width="2" opacity="0.14"/><circle cx="1123" cy="146" r="217" fill="none" stroke="#E9C46A" stroke-width="2" opacity="0.18"/><circle cx="372" cy="98" r="152" fill="none" stroke="#F5F0E8" stroke-width="2" opacity="0.13"/><circle cx="661" cy="365" r="108" fill="none" stroke="#E9C46A" stroke-width="2" opacity="0.10"/><circle cx="570" cy="213" r="106" fill="none" stroke="#F5F0E8" stroke-width="2" opacity="0.16"/><circle cx="176" cy="169" r="138" fill="none" stroke="#E9C46A" stroke-width="2" opacity="0.12"/><circle cx="1019" cy="268" r="54" fill="none" stroke="#F5F0E8" stroke-width="2" opacity="0.17"/>
+  </g>
+  <g><rect x="969" y="394" width="150" height="98" rx="18" transform="rotate(12 1044 443)" fill="#E4B363" opacity="0.18"/><rect x="856" y="355" width="150" height="98" rx="18" transform="rotate(5 931 404)" fill="#E4B363" opacity="0.20"/><rect x="928" y="370" width="150" height="98" rx="18" transform="rotate(-7 1003 419)" fill="#E4B363" opacity="0.22"/><rect x="985" y="306" width="150" height="98" rx="18" transform="rotate(-13 1060 355)" fill="#E4B363" opacity="0.24"/></g>
+  <g><rect x="774" y="335" width="18" height="305" rx="9" fill="#F5F0E8" opacity="0.14"/><rect x="822" y="258" width="18" height="382" rx="9" fill="#E9C46A" opacity="0.26"/><rect x="860" y="384" width="18" height="256" rx="9" fill="#E9C46A" opacity="0.26"/><rect x="911" y="447" width="18" height="193" rx="9" fill="#F5F0E8" opacity="0.14"/><rect x="959" y="479" width="18" height="161" rx="9" fill="#E9C46A" opacity="0.26"/><rect x="997" y="330" width="18" height="310" rx="9" fill="#E9C46A" opacity="0.26"/><rect x="1048" y="420" width="18" height="220" rx="9" fill="#F5F0E8" opacity="0.14"/><rect x="1088" y="300" width="18" height="340" rx="9" fill="#E9C46A" opacity="0.26"/></g>
+  <path d="M760 102 C884 44 1039 73 1158 164 C1074 147 985 174 897 238 C845 276 797 326 742 353 C735 260 728 166 760 102Z" fill="#F5F0E8" opacity="0.10"/>
+  <rect x="72" y="86" width="612" height="548" rx="34" fill="#F5F0E8" opacity="0.08" filter="url(#shadow)"/>
+  <rect x="86" y="108" width="92" height="6" rx="3" fill="#E9C46A"/>
+  <text x="86" y="177" fill="#E9C46A" font-family="Source Sans 3, Arial, sans-serif" font-size="24" font-weight="800" letter-spacing="3">PRODUCTIVITY</text>
+  <text fill="#F5F0E8" font-family="Merriweather, Georgia, serif" font-size="50" font-weight="800" letter-spacing="0" line-height="1.15">
+    <tspan x="86" y="305">Digital Minimalism: How</tspan>
+<tspan x="86" y="369">to Declutter Your</tspan>
+<tspan x="86" y="433">Digital Life</tspan>
+  </text>
+  <text x="86" y="586" fill="#F5F0E8" opacity="0.78" font-family="Source Sans 3, Arial, sans-serif" font-size="26" font-weight="600">Life Now Tips • Practical guide</text>
+  <circle cx="1130" cy="136" r="54" fill="#F5F0E8" opacity="0.11"/>
+  <circle cx="1130" cy="136" r="22" fill="#E9C46A" opacity="0.72"/>
+  <path d="M1066 574L1156 484L1246 574" fill="none" stroke="#F5F0E8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.28"/>
+  <path d="M1012 612H1226" stroke="#E9C46A" stroke-width="10" stroke-linecap="round" opacity="0.52"/>
+</svg>
