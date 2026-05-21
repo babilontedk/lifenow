@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://lifenowtips.blogspot.com/sitemap.xml
+Sitemap: https://lifenow.lovable.app/sitemap.xml
