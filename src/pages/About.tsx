@@ -1,17 +1,46 @@
 import Layout from "@/components/Layout";
+import SEO from "@/components/SEO";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import { Link } from "react-router-dom";
+import { authors } from "@/data/authors";
 
 const About = () => (
   <Layout>
+    <SEO
+      title="About Life Now Tips"
+      description="Learn about Life Now Tips — our mission, editorial team, values, and how we create trustworthy guides on productivity, health, lifestyle and online income."
+      path="/about"
+    />
     <div className="container-blog py-12">
-      <h1 className="text-3xl md:text-4xl font-bold font-heading text-foreground mb-6">About Us</h1>
+      <Breadcrumbs items={[{ name: "Home", url: "/" }, { name: "About" }]} />
+      <h1 className="text-3xl md:text-4xl font-bold font-heading text-foreground mb-6">About Life Now Tips</h1>
       <div className="prose-blog font-body text-foreground">
-        <p>Welcome to <strong>Life Now Tips</strong> — your trusted source for practical life advice, productivity strategies, and self-improvement tips that you can apply every day.</p>
+        <p>
+          <strong>Life Now Tips</strong> is an independent online publication dedicated to publishing
+          practical, expert-reviewed guides on productivity, health, lifestyle, self-improvement, online
+          income, and technology. We launched in 2024 with a simple mission: help everyday readers make
+          small, sustainable changes that compound into a better life.
+        </p>
 
         <h2>Our Mission</h2>
-        <p>Life Now Tips was created to help people improve their lives with simple, practical advice they can apply every day. We believe that meaningful change does not require dramatic overhauls — it starts with small, consistent steps that compound into remarkable results over time.</p>
+        <p>
+          We believe meaningful change starts with clear, honest, and actionable information. Every article
+          we publish is written by a named author, fact-checked against primary sources, and reviewed by a
+          second editor before going live. We do not republish syndicated content and we do not publish
+          AI-generated articles without human research and editing.
+        </p>
 
-        <h2>Who We Are</h2>
-        <p>We are a passionate team of writers, researchers, and life improvement enthusiasts who are dedicated to providing high-quality, evidence-based content across topics including productivity, health, lifestyle, personal development, and financial wellness.</p>
+        <h2>Editorial Standards</h2>
+        <p>
+          Our work follows Google's E-E-A-T principles (Experience, Expertise, Authoritativeness,
+          Trustworthiness). Read more in our{" "}
+          <Link to="/editorial-guidelines" className="text-primary underline">Editorial Guidelines</Link>{" "}
+          and{" "}
+          <Link to="/fact-checking" className="text-primary underline">Fact-Checking Policy</Link>.
+          Sensitive topics like health and finance are reviewed by a second qualified writer, and we
+          recommend that readers consult licensed professionals for personal medical, legal, or financial
+          decisions.
+        </p>
 
         <h2>What We Cover</h2>
         <ul>
@@ -20,14 +49,38 @@ const About = () => (
           <li><strong>Self Improvement</strong> — Mindset, confidence, discipline, and personal growth</li>
           <li><strong>Lifestyle</strong> — Daily routines, habits, and life optimization</li>
           <li><strong>Online Money</strong> — Legitimate side hustles and income strategies</li>
-          <li><strong>Technology Tips</strong> — Apps and tools to organize your life</li>
+          <li><strong>Tech Tips</strong> — Apps and tools to organize your life</li>
         </ul>
 
-        <h2>Our Commitment</h2>
-        <p>Every article we publish is carefully researched, original, and designed to provide genuine value. We are committed to maintaining the highest standards of quality, accuracy, and helpfulness in everything we publish. Our goal is to be the most trusted resource for practical life improvement advice on the internet.</p>
+        <h2>Our Team</h2>
+        <p>
+          Life Now Tips is written and edited by a small team of writers with hands-on experience in their
+          respective fields. Meet the full team on our{" "}
+          <Link to="/authors" className="text-primary underline">Authors page</Link>.
+        </p>
+        <ul>
+          {authors.map((a) => (
+            <li key={a.slug}>
+              <Link to={`/author/${a.slug}`} className="text-primary underline">{a.name}</Link> — {a.title}
+            </li>
+          ))}
+        </ul>
 
-        <h2>Get in Touch</h2>
-        <p>We love hearing from our readers! If you have questions, suggestions, or feedback, please visit our <a href="/contact" className="text-primary hover:underline">Contact page</a> and send us a message. We read every email and do our best to respond promptly.</p>
+        <h2>How We Make Money</h2>
+        <p>
+          Life Now Tips is supported by display advertising (Google AdSense) and, occasionally, affiliate
+          links to products we genuinely recommend. Advertising and affiliate relationships never influence
+          our editorial decisions. When a post contains affiliate links, we disclose it clearly. Read our{" "}
+          <Link to="/disclaimer" className="text-primary underline">full disclaimer</Link>.
+        </p>
+
+        <h2>Contact &amp; Corrections</h2>
+        <p>
+          Questions, feedback, or a correction? Email us at{" "}
+          <a href="mailto:contact@lifenowtips.com" className="text-primary underline">contact@lifenowtips.com</a>{" "}
+          or use our <Link to="/contact" className="text-primary underline">Contact page</Link>. We respond
+          to every legitimate email and aim to correct verified errors within 7 days.
+        </p>
       </div>
     </div>
   </Layout>
