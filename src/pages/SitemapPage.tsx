@@ -12,7 +12,12 @@ const SitemapPage = () => {
     { to: "/terms", label: "Terms and Conditions" },
     { to: "/disclaimer", label: "Disclaimer" },
     { to: "/cookie-policy", label: "Cookie Policy" },
+    { to: "/authors", label: "Authors" },
+    { to: "/editorial-guidelines", label: "Editorial Guidelines" },
+    { to: "/fact-checking", label: "Fact-Checking Policy" },
   ];
+
+  const sortedArticles = [...articles].sort((a, b) => +new Date(b.date) - +new Date(a.date));
 
   return (
     <Layout>
@@ -30,7 +35,7 @@ const SitemapPage = () => {
 
         <h2 className="text-xl font-bold font-heading text-foreground mt-8 mb-4">Blog Articles</h2>
         <ul className="space-y-2">
-          {articles.map(a => (
+          {sortedArticles.map(a => (
             <li key={a.slug}>
               <Link to={`/blog/${a.slug}`} className="text-primary font-body hover:underline">{a.title}</Link>
             </li>
