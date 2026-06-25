@@ -9,12 +9,19 @@ const escapeHtml = (s: string) => s
   .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
   .replace(/"/g, "&quot;");
 
+const renderLink = (text: string, href: string): string => {
+  const isExternal = /^https?:\/\//i.test(href);
+  const safeHref = href.replace(/'/g, "&#39;");
+  const externalAttrs = isExternal ? ' target="_blank" rel="noopener noreferrer nofollow"' : "";
+  return `<a href="${safeHref}" class="text-primary underline"${externalAttrs}>${text}</a>`;
+};
+
 const inline = (s: string) =>
   // bold then italic, then links [text](url)
   s
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*]+)\*/g, "<em>$1</em>")
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-primary underline">$1</a>');
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_match, text, href) => renderLink(text, href));
 
 export interface RenderedArticle {
   html: string;
