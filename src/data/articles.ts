@@ -8574,6 +8574,11 @@ For safety and digital literacy, review the [Google Safety Center](https://safet
 
 For related Life Now Tips guides, read [How to Use AI Tools to Boost Your Daily Productivity](/blog/use-ai-tools-boost-productivity), [Best Free Productivity Tools You Should Be Using](/blog/best-free-productivity-tools), and [How to Protect Your Privacy Online in 2026](/blog/protect-privacy-online-2026).
 
+
+## Quick Prompt Examples Students Can Use
+
+Use prompts that force learning instead of shortcuts. Try: “Explain this topic in three levels: beginner, exam-ready, and advanced.” Another useful prompt is: “Quiz me one question at a time and do not reveal the answer until I respond.” For writing, use: “Review my paragraph for clarity and ask me three questions that would make my argument stronger.” These prompts keep you involved in the thinking process. They also create a study record you can compare with lecture notes, textbooks, and teacher feedback. If an answer seems too broad, ask the tool to slow down and show the reasoning step by step.
+
 ## Summary
 
 The best AI tools for students are the ones that help you understand, practice, and improve honestly. Use AI as a study partner, verify important facts, protect your privacy, and follow your school rules. Your next step is to choose one difficult topic and ask AI to quiz you—not to do the work for you.`,
@@ -8724,6 +8729,11 @@ Automatic savings make travel feel less painful. They also help you avoid return
 For consumer travel rights in the United States, review the [U.S. Department of Transportation air consumer resources](https://www.transportation.gov/airconsumer). For travel safety information, check official government travel advisories when leaving your country.
 
 For related Life Now Tips content, read [Travel Hacking: How to Travel More and Spend Less](/blog/travel-hacking-travel-more-spend-less), [Minimalist Lifestyle on a Budget](/blog/minimalist-lifestyle-on-a-budget), and [Simple Home Organization Tips That Save Time](/blog/simple-home-organization-tips).
+
+
+## Quick Planning Checklist
+
+Before you book, write the total trip budget at the top of a page and subtract the biggest fixed costs first: transport, lodging, and must-do activities. Then divide the remaining money by the number of travel days so you know the daily limit for food, parking, small activities, and extras. Share the plan with older children when appropriate so everyone understands why you are choosing some experiences and skipping others. This turns budgeting into a family decision instead of a stressful surprise. Keep screenshots of reservations, cancellation rules, and confirmation numbers in one offline folder so the trip stays organized even if mobile service is weak.
 
 ## Summary
 
@@ -8895,6 +8905,11 @@ Beginners often do too much too soon, skip warm-ups, copy advanced workouts, ign
 For evidence-based movement guidance, review the [CDC physical activity basics](https://www.cdc.gov/physical-activity-basics/) and the [World Health Organization physical activity resources](https://www.who.int/news-room/fact-sheets/detail/physical-activity). For sleep support, see the [Sleep Foundation sleep hygiene guide](https://www.sleepfoundation.org/sleep-hygiene).
 
 For related Life Now Tips articles, read [How to Build a Simple Home Workout Routine](/blog/simple-home-workout-routine), [12 Healthy Lifestyle Tips for Busy People](/blog/12-healthy-lifestyle-tips-for-busy-people), and [How to Sleep Better at Night](/blog/how-to-sleep-better-at-night).
+
+
+## Warm-Up and Cool-Down Routine
+
+A simple warm-up can make the workout feel safer and smoother. Start with one minute of easy marching, then do shoulder circles, hip circles, ankle rocks, and five slow bodyweight squats to a comfortable depth. After training, cool down with relaxed breathing and gentle stretches for the calves, hips, chest, and upper back. The goal is not extreme flexibility; it is to help your body shift from effort back to normal activity. If you feel unusually tired, reduce the next workout rather than forcing progress. Sustainable exercise should leave you feeling capable, not punished.
 
 ## Summary
 
