@@ -8,7 +8,9 @@ const Blog = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const activeCategory = searchParams.get("category") || "All";
 
-  const filtered = activeCategory === "All" ? articles : articles.filter(a => a.category === activeCategory);
+  const filtered = (activeCategory === "All" ? articles : articles.filter(a => a.category === activeCategory))
+    .slice()
+    .sort((a, b) => +new Date(b.date) - +new Date(a.date));
 
   return (
     <Layout>
